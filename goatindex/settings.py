@@ -61,9 +61,18 @@ NEWSPIDER_MODULE = 'goatindex.spiders'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'goatindex.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'goatindex.pipelines.GoatindexImagePipeline': 1,
+    #'scrapy.pipelines.images.ImagesPipeline': 10,
+    #'goatindex.pipelines.DuplicatesPipeline': 20,
+}
+
+IMAGES_THUMBS = {
+    'small': (50, 50),
+    'big': (260, 260),
+}
+
+IMAGES_STORE = 'CHANGE THIS'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

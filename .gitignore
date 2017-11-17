@@ -35,5 +35,8 @@ goat-index
 # Ansible Inventory File
 inventory
 
+#pyc files
+*.pyc
+
 # Vagrant Files
 .vagrant
