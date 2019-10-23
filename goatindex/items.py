@@ -18,4 +18,4 @@ class ImageItem(Item):
     # Mandatory for image downloading
     images = Field()
     image_urls = Field()
-    image_name = Field()
+    #image_name = Field()

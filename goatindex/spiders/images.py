@@ -34,7 +34,7 @@ class ImageSpider(scrapy.Spider):
         '''
         image = ImageItem()
         image['image_urls'] = [response.url]
-        image['image_name'] = response.request.meta['image_name']
+        #image['image_name'] = response.request.meta['image_name']
         yield image
 
 

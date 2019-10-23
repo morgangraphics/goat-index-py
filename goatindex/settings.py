@@ -68,11 +68,11 @@ ITEM_PIPELINES = {
 }
 
 IMAGES_THUMBS = {
-    'small': (50, 50),
+    'small': (50, 75),
     'big': (260, 260),
 }
 
-IMAGES_STORE = 'CHANGE THIS'
+IMAGES_STORE = '/home/beaver-root/Projects/goat-index-py/images'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
