@@ -41,7 +41,9 @@ class GoatindexImagePipeline(ImagesPipeline):
     def item_completed(self, results, item, info):
         '''
         TODO:
-            1. Store Results in a Database
+            1. Take image and classify it with Microsoft Image Classifier
+                https://docs.microsoft.com/en-us/azure/machine-learning/preview/scenario-image-classification-using-cntk
+            2. Store Results in a Database
         :param results:
         :param item:
         :param info:
