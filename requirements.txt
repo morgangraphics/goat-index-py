@@ -29,7 +29,7 @@ pyasn1==0.4.7
 pycups==1.9.74
 pycurl==7.43.0.3
 pygobject==3.34.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.2
 python-apt==1.1.0b1
 python-debian==0.1.36
